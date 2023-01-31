@@ -1,0 +1,42 @@
+@font-face{
+    font-family: 'Roboto';
+    src:url(fonts/Roboto/Roboto-Bold.ttf)
+}
+@font-face{
+    font-family: 'Bilbo';
+    src:url(fonts/Bilbo/Bilbo-Regular.ttf)
+}
+@font-face{
+    font-family: 'alex-brush';
+    src:url(fonts/alex-brush/AlexBrush-Regular.ttf)
+}
+@font-face{
+    font-family: 'Aboreto';
+    src:url(fonts/Aboreto/Aboreto-Regular.ttf)
+}
+@font-face{
+    font-family: "Dancing_Script";
+    src:url(fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf)
+}
+@font-face{
+    font-family: "Sofia_Sans";
+    src:url(fonts/Sofia_Sans/SofiaSans-VariableFont_wght.ttf)
+}
+h1{
+    font-family: "Roboto";
+}
+h2{
+    font-family: "Bilbo";
+}
+h3{
+    font-family: "alex-brush";
+}
+p{
+    font-family:"Aboreto";
+}
+h4{
+    font-family:"Dancing_Script";
+}
+h5{
+    font-family: "Sofia_Sans";
+}
