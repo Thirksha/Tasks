@@ -1,0 +1,132 @@
+*{
+    background-color: bisque;
+    margin:0;
+    padding:10px 20px;
+    box-sizing:border-box;
+    width: 100%;
+}
+.row-one{
+    display:flex;
+    width: 100%;
+    min-height:75px;
+}
+.red{
+    width:30%;
+    min-height:75px;
+    padding:10 10px;
+    background-color: red;
+    margin-right: 10px;
+}
+.blue{
+    width:85%;
+    min-height:85px;
+    padding:10 0px;
+    background-color: blue;
+    margin-right: 10px;
+}
+.row-two{
+    display:flex;
+    width: 100%;
+    min-height:75px;
+}
+.darkgoldenrod{
+    width:100%;
+    min-height:100px;
+    padding:10 0px;
+    background-color: darkgoldenrod;
+    margin-right: 10px;
+}
+.row-three{
+    display:flex;
+    width: 100%;
+    min-height:75px;
+}
+.lawngreen{
+    width:40%;
+    min-height:75px;
+    padding:10 0px;
+    background-color: lawngreen;
+    margin-right: 10px;
+}
+.deeppink{
+    width:40%;
+    min-height:75px;
+    padding:10 0px;
+    background-color: deeppink;
+    margin-right: 10px;
+}
+.blueviolet{
+    width:40%;
+    min-height:75px;
+    padding:10 0px;
+    background-color: blueviolet;
+    margin-right: 10px;
+}
+.row-four{
+    display:flex;
+    width: 100%;
+    min-height:75px;
+}
+.orangered{
+    width:50%;
+    min-height:75px;
+    padding:10 0px;
+    background-color: orangered;
+    margin-right: 10px;
+}
+.yellow{
+    width:50%;
+    min-height:75px;
+    padding:10 0px;
+    background-color: yellow;
+    margin-right: 10px;
+}
+.row-five{
+    display:flex;
+    width: 100%;
+    min-height:75px;
+}
+.darkgreen{
+    width:30%;
+    min-height:75px;
+    padding:10 0px;
+    background-color: darkgreen;
+    margin-right: 10px;
+}
+.aqua{
+    width:30%;
+    min-height:75px;
+    padding:10 0px;
+    background-color: aqua;
+    margin-right: 10px;
+}
+.maroon{
+    width:30%;
+    min-height:75px;
+    padding:10 0px;
+    background-color: maroon;
+    margin-right: 10px;
+}
+.indigo{
+    width:30%;
+    min-height:75px;
+    padding:10 0px;
+    background-color: indigo;
+    margin-right: 10px;
+}
+.row-six{
+    display:flex;
+    width: 100%;
+    min-height:75px;
+}
+.brown{
+    width:100%;
+    min-height:50px;
+    padding:10 0px;
+    background-color: brown;
+    margin-right: 10px;
+}
+
+
+
+
