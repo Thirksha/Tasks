@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h2>Product Order Form</h2>
+        <div class="container">
+            <form>  
+                    <div class="first">
+                        <label for="first-name">FIRST NAME<span>:</span><input id="first-name" name="first-name" type="text" placeholder="Your First Name" required /></label>
+                    </div>   
+                    <div class="last">
+                        <label for="last-name">LAST NAME<span>:</span><input id="last-name" name="last-name" type="text" placeholder="Your last Name" required /></label> <br> 
+                    </div>
+                    <div class="email">
+                        <label for="email-address">EMAIL ADDRESS<span>:</span> <input id="email-address" name="email-address" type="email" placeholder="mail@example.com" required /></label><br>
+                    </div>
+                    <div class="phno">
+                        <label for="phone-number">PHONE NUMBER<span>:</span><input id="phno1" name="phone-number" type="tel" placeholder="+??" required /></label>
+                        <label for="phone-number"><input id="phno2" name="phone-number" type="tel" placeholder="????????" required /></label><br>
+                    </div>
+                    <div class="billadd">
+                        <label for="billing-address">BILLING ADDRESS<span>:</span> <input id="billing-address" name="billing-address" type="address" placeholder="Billing Address" required /></label><br>
+                    </div>
+                    <div class="add">
+                        <label for="address">YOUR ADDRESS<span>:</span> <input id="address" name="address" type="address" placeholder="Your Address" required /></label><br>
+                    </div>
+                    <div class="city">
+                        <label for="city-name">CITY<span>:</span> <input id="city-name" name="city-name" type="text" placeholder="City" required /></label>
+                    </div> 
+                    <div class="state">   
+                        <label for="state-province">STATE/PROVINCE<span>:</span><input id="state-province" name="state-province" type="text" placeholder="Your State or Province" required /></label><br>
+                    </div>
+                    <div class="zip">
+                        <label for="zip">ZIP CODE<span>:</span> <input id="zip" name="zip" type="text" placeholder="Zip Code" required /></label>
+                    </div> 
+                    <div class="country"> 
+                        <label for="country">COUNTRY<span>:</span></label>
+                          <select id="country">
+                            <option value="Country" selected>Country</option>
+                            <option value="China">China</option>
+                            <option value="France">France</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Canada">Canada</option>
+                            <option value="United States">United States</option>
+                          </select><br>
+                    </div>
+                    <div class="confirm">
+                       <input type="submit" value="PLACE ORDER">
+                       <input type="clear" value="RESET"> 
+                    </div>      
+            </form>
+        </div>
+        <p>
+            @ 2017 Product Order Form. All Rights Reserved|Design by
+            <a href="https://w3layouts.com/">W3layouts</a>
+        </p>
+    
+</body>
+</html>
