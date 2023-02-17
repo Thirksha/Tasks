@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+}
+
+.container {
+    background-color: rgba(160, 43, 244, 0.811);
+    width: 100%;
+    height:600px;
+    border-radius: 15px;
+    margin:20px 20px 20px 20px;
+    display: flex;
+}
+
+.item-one {
+    margin: 5px 0 5px 5px;
+    border-radius: 15px 0px 0px 15px;
+    width: 30%;
+    background-color: white;
+    justify-content: flex-start;
+    padding: 20px;
+
+}
+img {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.header {
+    position: relative;
+    top: -60px;
+    left: 65px;
+}
+
+h3 {
+    font-weight: 400;
+}
+hr {
+    
+    background-color: rgba(93, 7, 233, 0.603);
+    height: 2px;
+    border: 1px solid rgba(93, 7, 233, 0.603);
+    width: 300px;
+    position: relative;
+    top: 40px;
+    left: -50px;
+}
+.material-symbols-rounded {
+    font-size: 30px;
+    color: rgb(87, 31, 177);
+}
+.item-two {
+    height: 98.5%;
+    margin: 5px 5px 0px 0;
+    width: 45vw;
+    border-radius: 0px 15px 15px 0px;
+    padding: 40px;
+}
+.material-icons {
+    font-size: 15px !important;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 8px;
+}
+
+span {
+    padding-right: 20px;
+}
+
+.first {
+    position: relative;
+    left: 45px;
+}
+
+.material-symbols-outlined {
+    position: relative;
+    top: 6px;
+}
+
+h1,
+h2 {
+    color: white;
+    padding-left: 50px;
+}
+
+p {
+    padding: 9px;
+}
+
+input[type="text"].firsttext {
+    width: 730px;
+    height: 50px;
+    margin: 20px 35px 0 30px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    font-size: 15pt;
+}
+
+.head {
+    padding-top: 40px;
+}
+
+p .material-icons {
+    position: relative;
+    top: 58px;
+    left: 40px;
+    padding: 1px;
+
+}
+
+p .material-symbols-outlined {
+    position: relative;
+    top: -35px;
+    left: 680px;
+    margin: -2px;
+    color: rgb(87, 31, 177);
+}
+
+.firsttext::placeholder {
+    color: rgba(128, 128, 128, 0.349);
+}
+
+
+input[type="text"].secondtext {
+    width: 700px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    font-size: 15pt;
+    margin-top: -500px;
+    margin-left: 50px;
+}
+.material-symbols-outlined.checking {
+
+    position: relative;
+    right: -400px;
+    top: -30px;
+}
+
+input[type="text"].thirdtext {
+    width: 700px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    font-size: 15pt;
+    margin-top: -500px;
+    margin-left: 50px;
+}
+.material-icons.three {
+    position: relative;
+    top: 18px;
+    left: 60px;
+    color: yellow;
+}
+.material-icons.one {
+    position: relative;
+    top: 19px;
+    left: 60px;
+    color: palevioletred;
+}
+input[type="text"].fourthtext {
+    width: 700px;
+    height: 40px;
+
+    border-radius: 15px;
+    border: 1px solid transparent;
+    font-size: 15pt;
+    margin-top: -500px;
+    margin-left: 50px;
+
+}
+.material-icons.two {
+    position: relative;
+    top: 18px;
+    left: 60px;
+    color: skyblue;
+}
+input[type="text"].fifthtext {
+    width: 700px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    font-size: 15pt;
+    margin-left: 50px;
+    margin-top: -500px;
+}
+.material-icons.four {
+    position: relative;
+    top: 18px;
+    left: 60px;
+    color: palevioletred;
+}
+
+.material-symbols-outlined.circle-one {
+
+    position: relative;
+    right: -50px;
+    top: -29px;
+    color: rgba(128, 128, 128, 0.533);
+}
+.secondtext::placeholder {
+    color: rgba(7, 1, 1, 0.692);
+    font-size: 13pt;
+}
+
+.thirdtext::placeholder {
+    color: black;
+    font-size: 13pt;
+}
+
+.fourthtext::placeholder {
+    color: rgba(7, 1, 1, 0.692);
+    font-size: 13pt;
+}
+
+.fifthtext::placeholder {
+    color: rgba(7, 1, 1, 0.692);
+    font-size: 13pt;
+}
+
+
+
