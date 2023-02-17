@@ -1,0 +1,115 @@
+*{
+    margin: 0;;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+section .imagebox {
+    position: relative;
+    width: 50%;
+    height:100%;
+    display: flex;
+}
+section .contentbox{
+    width:50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+section .contentbox .formbox{
+    width:50%;
+}
+section .contentbox .formbox h2{
+    color: #607d8b;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #FF4584;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+section .contentbox .formbox .inputbox{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+section .contentbox .formbox .inputbox span{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #607d8b;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+section .contentbox .formbox .inputbox input{
+    width:100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+    border-radius: 30px;
+    
+}
+section .contentbox .formbox .inputbox input[type="submit"]{
+    background: #FF4584;
+    color: #fff;
+    font-weight: 500;
+    border: #FF4584;
+}
+section .contentbox .formbox .remember{
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+}
+section .contentbox .formbox .inputbox p{
+    color: #607d8b;
+}
+section .contentbox .formbox .inputbox p a{
+    color:#FF4584;
+}
+section .contentbox .formbox h3{
+    color: #607d8b;
+    text-align: center;
+    margin: 80px 0 10px;
+    font-weight: 500;
+}
+section .contentbox .formbox .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .contentbox .formbox .icon li{
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #607d8b;
+    border-radius: 50%;
+    margin: 0 7px;
+    color: white;
+}
+section .contentbox .formbox .icon li:hover{
+    background: #FF4584;
+
+}
